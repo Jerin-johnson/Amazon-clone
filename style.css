@@ -1,0 +1,159 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#nav-bar{
+    height: 114px;
+    background-color: rgb(0, 210, 198);
+    display: flex;
+    border-bottom: 0.5px solid white;
+    position: fixed;
+    width: 100%;
+}
+#fake-header{
+    height: 114px;
+}
+#logo{
+    width: 50%;
+}
+#logo img{
+    margin-top: 10px;
+    margin-left: 15px;
+    height: 80px;
+}
+#lists{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+#lists a{
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 35px;
+    
+    
+}
+.scroll{
+    text-decoration: none;
+
+}
+.scroll:hover{
+    text-decoration: underline !important;
+}
+#two i{
+    font-size: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+#image1{
+    
+    background-image: url("home-page.webp");
+    height: 730px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.image2{
+    background-image: url("image-2.webp");
+    height: 730px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.image3{
+    background-image: url("image3.webp");
+    height: 730px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#test{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: left;
+    padding-left: 80px;
+}
+#test h1{
+    display: flex;
+    color: white;
+    align-items: center;
+    font-size: 50px;
+    padding-top: 50%;
+    
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+}
+#test p{
+    
+    border: 2px solid white;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.big-circle{
+    background-color: rgba(0, 86, 0, 0.5);
+    height:200px;
+    width: 500px;
+    border-radius: 50px;
+    
+    
+    
+}
+.big-circle p{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+#view{
+    border: 1px solid white;
+    display: inline;
+    margin-top: 15px;
+    padding: 5px 50px;
+    margin-left: 160px;
+    border-radius: 16px;
+}
+
+
+
+
+
+
+
+/* Footer */
+#footer-1{
+    height: 100px;
+    background-color: #3e3e3e;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+   
+#term a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+#term p{
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
